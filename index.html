@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project 1</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
     <header>
         <h1>Landing Page</h1>
@@ -17,23 +19,37 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <form action="">
+        <h2>Contact Form</h2>
         <p>
-            <label for="name">
-                <span>Name: </span>
-                <input type="text" name="name" id="name" required>
-            </label>
+            Required fields are followed by <strong><abbr title="required">*</abbr></strong>.
         </p>
-        <p>
-            <label for="email">
-                <span>Email: </span>
-                <input type="email" name="email" id="email" required>
-            </label>
-        </p>
-        <p></p>
-    </section>
+        <section>
+            <p>
+                <label for="name">
+                    <span>Name: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                    <input type="text" name="name" id="name" required>
+                </label>
+            </p>
+            <p>
+                <label for="email">
+                    <span>Email: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                    <input type="email" name="email" id="email" required>
+                </label>
+            </p>
+            <p></p>
+        </section>
+        <section>
+            <p>
+                <button type="submit">Submit Contact Form</button>
+            </p>
+        </section>
+    </form>
     <footer>
         © 2024 The-Real-Chrisp. All Rights Reserved.
     </footer>
 </body>
+
 </html>
