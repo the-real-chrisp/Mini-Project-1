@@ -6,18 +6,13 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(112.5deg, rgb(3, 3, 3) 0%, rgb(64, 64, 64) 63%,rgb(78, 78, 78) 63%, rgb(78, 78, 78) 78%,rgb(92, 92, 92) 78%, rgb(92, 92, 92) 80%,rgb(106, 106, 106) 80%, rgb(106, 106, 106) 83%,rgb(119, 119, 119) 83%, rgb(119, 119, 119) 86%,rgb(133, 133, 133) 86%, rgb(133, 133, 133) 96%,rgb(147, 147, 147) 96%, rgb(147, 147, 147) 100%),linear-gradient(90deg, rgb(64, 64, 64) 0%, rgb(64, 64, 64) 63%,rgb(78, 78, 78) 63%, rgb(78, 78, 78) 78%,rgb(92, 92, 92) 78%, rgb(92, 92, 92) 80%,rgb(106, 106, 106) 80%, rgb(106, 106, 106) 83%,rgb(119, 119, 119) 83%, rgb(119, 119, 119) 86%,rgb(133, 133, 133) 86%, rgb(133, 133, 133) 96%,rgb(147, 147, 147) 96%, rgb(147, 147, 147) 100%),linear-gradient(157.5deg, rgb(64, 64, 64) 0%, rgb(64, 64, 64) 63%,rgb(78, 78, 78) 63%, rgb(78, 78, 78) 78%,rgb(92, 92, 92) 78%, rgb(92, 92, 92) 80%,rgb(106, 106, 106) 80%, rgb(106, 106, 106) 83%,rgb(119, 119, 119) 83%, rgb(119, 119, 119) 86%,rgb(133, 133, 133) 86%, rgb(133, 133, 133) 96%,rgb(147, 147, 147) 96%, rgb(147, 147, 147) 100%),linear-gradient(90deg, rgb(238, 167, 36),rgb(187, 187, 187)); background-blend-mode:overlay,overlay,overlay,normal;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: teal;
 }
 
 nav ul li{
