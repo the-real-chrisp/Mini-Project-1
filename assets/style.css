@@ -14,5 +14,19 @@ body {
     padding: 0;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+}
 
+nav ul li{
+    display: inline-flex;
+    margin: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
 
